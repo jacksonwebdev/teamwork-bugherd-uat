@@ -1,0 +1,61 @@
+// example bug on task_create webhook:
+// {
+// 	"task": {
+// 		"id": 8675309,
+// 		"project_id": 8675309,
+// 		"created_at": "2018-05-21T23:09:12.345Z",
+// 		"updated_at": "2018-05-21T23:09:12.345Z",
+// 		"local_task_id": 20,
+// 		"priority_id": 0,
+// 		"status_id": 0,
+// 		"description": "LOL I'M A DESCRIPTION",
+// 		"tag_names": [],
+// 		"external_id": null,
+// 		"requester_email": "email@cbdubs.com",
+// 		"attachments": [],
+// 		"screenshot_url": null,
+// 		"status": "backlog",
+// 		"priority": "not set",
+// 		"closed_at": null,
+// 		"secret_link": "https://www.bugherd.com/t/LOLIMASECRETLINK",
+// 		"admin_link": "https://www.bugherd.com/projects/8675309/tasks/1337",
+// 		"deleted_at": null,
+// 		"site": "https://lol.website.biz",
+// 		"url": "/",
+// 		"metadata": {},
+// 		"screenshot_data": {
+// 			"screenshot_width": 1855,
+// 			"screenshot_height": 1855,
+// 			"screenshot_pin_x": 972,
+// 			"screenshot_pin_y": 850
+// 		},
+// 		"requester_os": "Mac OS 10.13.4",
+// 		"requester_browser": "Chrome 66.0.3359.139",
+// 		"requester_browser_size": "1840 x 960 px",
+// 		"requester_resolution": "1920 x 1080 px",
+// 		"selector_info": {
+// 			"path": "html>body>div.container>div.row.full>div.column>h3",
+// 			"html": "<h3>LOL I'M CAPTURED HTML</h3>",
+// 			"version": 2,
+// 			"data": {
+// 				"bugOffsetX": 0.5580357142857143,
+// 				"bugOffsetY": 0.5587284482758621
+// 			}
+// 		},
+// 		"due_at": null,
+// 		"assignees": [],
+// 		"assigned_to": null,
+// 		"requester": {
+// 			"id": 132562,
+// 			"email": "email@cbdubs.com",
+// 			"display_name": "Chip Richalds",
+// 			"avatar_url": "https://www.bugherd.com/images/sidebar/avatar-generic.svg"
+// 		},
+// 		"updater": {
+// 			"id": 132562,
+// 			"email": "email@cbdubs.com",
+// 			"display_name": "Chip Richalds",
+// 			"avatar_url": "https://www.bugherd.com/images/sidebar/avatar-generic.svg"
+// 		}
+// 	}
+// }

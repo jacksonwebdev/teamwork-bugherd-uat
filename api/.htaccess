@@ -1,0 +1,4 @@
+<Files "bugherd_task_create.php">
+  Allow from all
+  Satisfy any
+</Files>
